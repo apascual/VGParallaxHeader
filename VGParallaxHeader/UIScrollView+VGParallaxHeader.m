@@ -292,9 +292,9 @@ static void *VGParallaxHeaderObserverContext = &VGParallaxHeaderObserverContext;
                 break;
         }
         
-        if(!self.isInsideTableView) {
-            self.scrollView.contentOffset = CGPointMake(0, -self.scrollView.contentInset.top);
-        }
+//        if(!self.isInsideTableView) {
+//            self.scrollView.contentOffset = CGPointMake(0, -self.scrollView.contentInset.top);
+//        }
         
         // Refresh Sticky View Constraints
         [self updateStickyViewConstraints];
